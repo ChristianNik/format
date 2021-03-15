@@ -15,4 +15,7 @@ format(data, formater)
 
 format(data, formater, { all: true })
 // returns > { id: 1, hans: '77', jobName: 'Name' }
+
+format(data, formater, { exept: true })
+// returns > { id: 1, hans: '77' }
 ```
